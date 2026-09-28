@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+plotly>=5.18
+streamlit>=1.50
+pytest>=8.0
+seaborn>=0.13
+scikit-learn>=1.4   # pembanding & metrik di gnb_analysis.py; tidak dipakai di model

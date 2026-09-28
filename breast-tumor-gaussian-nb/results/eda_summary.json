@@ -1,0 +1,78 @@
+{
+  "n_samples": 569,
+  "n_features": 30,
+  "class_counts": {
+    "Benign": 357,
+    "Malignant": 212
+  },
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "n_pairs_abs_corr_gt_0.9": 21,
+  "top_correlated_pairs": [
+    {
+      "a": "radius_mean",
+      "b": "perimeter_mean",
+      "abs_r": 0.9979
+    },
+    {
+      "a": "radius_worst",
+      "b": "perimeter_worst",
+      "abs_r": 0.9937
+    },
+    {
+      "a": "radius_mean",
+      "b": "area_mean",
+      "abs_r": 0.9874
+    },
+    {
+      "a": "perimeter_mean",
+      "b": "area_mean",
+      "abs_r": 0.9865
+    },
+    {
+      "a": "radius_worst",
+      "b": "area_worst",
+      "abs_r": 0.984
+    },
+    {
+      "a": "perimeter_worst",
+      "b": "area_worst",
+      "abs_r": 0.9776
+    },
+    {
+      "a": "radius_se",
+      "b": "perimeter_se",
+      "abs_r": 0.9728
+    },
+    {
+      "a": "perimeter_mean",
+      "b": "perimeter_worst",
+      "abs_r": 0.9704
+    },
+    {
+      "a": "radius_mean",
+      "b": "radius_worst",
+      "abs_r": 0.9695
+    },
+    {
+      "a": "perimeter_mean",
+      "b": "radius_worst",
+      "abs_r": 0.9695
+    }
+  ],
+  "zero_counts": {
+    "concavity_mean": 13,
+    "concave points_mean": 13,
+    "concavity_se": 13,
+    "concave points_se": 13,
+    "concavity_worst": 13,
+    "concave points_worst": 13
+  },
+  "skewness_top5": {
+    "area_se": 5.447,
+    "concavity_se": 5.11,
+    "fractal_dimension_se": 3.924,
+    "perimeter_se": 3.444,
+    "radius_se": 3.089
+  }
+}

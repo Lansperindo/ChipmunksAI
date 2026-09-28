@@ -1,0 +1,82 @@
+{
+  "features": [
+    "radius_mean",
+    "texture_mean",
+    "perimeter_mean",
+    "area_mean",
+    "smoothness_mean",
+    "compactness_mean",
+    "concavity_mean",
+    "concave points_mean",
+    "symmetry_mean",
+    "fractal_dimension_mean",
+    "radius_se",
+    "texture_se",
+    "perimeter_se",
+    "area_se",
+    "smoothness_se",
+    "compactness_se",
+    "concavity_se",
+    "concave points_se",
+    "symmetry_se",
+    "fractal_dimension_se",
+    "radius_worst",
+    "texture_worst",
+    "perimeter_worst",
+    "area_worst",
+    "smoothness_worst",
+    "compactness_worst",
+    "concavity_worst",
+    "concave points_worst",
+    "symmetry_worst",
+    "fractal_dimension_worst"
+  ],
+  "priors": null,
+  "threshold": 0.5,
+  "test_size": 0.2,
+  "seed": 42,
+  "holdout": {
+    "TP": 38,
+    "TN": 70,
+    "FP": 1,
+    "FN": 4,
+    "accuracy": 0.9557522123893806,
+    "sensitivity": 0.9047619047619048,
+    "specificity": 0.9859154929577465,
+    "precision": 0.9743589743589743,
+    "npv": 0.9459459459459459,
+    "f1": 0.9382716049382716,
+    "balanced_accuracy": 0.9453386988598256,
+    "auc": 0.9909456740442656
+  },
+  "cv_5fold": {
+    "accuracy": {
+      "mean": 0.9383609080415545,
+      "std": 0.017978226489265305
+    },
+    "sensitivity": {
+      "mean": 0.8913621262458472,
+      "std": 0.04434161629856941
+    },
+    "specificity": {
+      "mean": 0.9662754303599375,
+      "std": 0.021153043987963683
+    },
+    "precision": {
+      "mean": 0.9415212159114598,
+      "std": 0.03318766072907265
+    },
+    "f1": {
+      "mean": 0.9147288974513927,
+      "std": 0.02633778483163146
+    },
+    "balanced_accuracy": {
+      "mean": 0.9288187783028923,
+      "std": 0.021723442628071764
+    },
+    "auc": {
+      "mean": 0.9868176760823337,
+      "std": 0.006651519969905107
+    }
+  }
+}

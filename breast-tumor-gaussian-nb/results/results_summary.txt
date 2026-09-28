@@ -1,0 +1,26 @@
+BREAST TUMOR DIAGNOSIS - GAUSSIAN NAIVE BAYES - RESULTS SUMMARY
+=================================================================
+
+Dataset: 569 samples, 30 features used
+Class distribution: {'Benign': 357, 'Malignant': 212}
+Train/test: 456/113 (stratified, seed 42)
+Priors: [0.6272, 0.3728]  |  Threshold: 0.5
+
+MANUAL MODEL (hold-out test set):
+  Accuracy : 0.9558
+  Precision: 0.9744
+  Recall   : 0.9048
+  F1-score : 0.9383
+  ROC AUC  : 0.9909
+  Confusion: TN=70 FP=1 FN=4 TP=38
+
+Agreement with sklearn GaussianNB: 100.00% (max prob diff 1.1e-16)
+
+5-fold CV (manual model), mean ± std:
+  accuracy : 0.9384 ± 0.0180
+  precision: 0.9415 ± 0.0332
+  recall   : 0.8914 ± 0.0443
+  f1       : 0.9147 ± 0.0263
+  auc      : 0.9868 ± 0.0067
+
+Share of extreme test posteriors (>0.9999 or <0.0001): 95.6%
